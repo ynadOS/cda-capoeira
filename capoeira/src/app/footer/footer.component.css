@@ -1,0 +1,23 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #0022BB;
+    color: white;
+    text-align: left;
+    width: 100%;
+  }
+
+  h1 {
+    color: #FFCC00;
+  }
+
+  p {
+    color: white;
+  } 
+
+  ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
