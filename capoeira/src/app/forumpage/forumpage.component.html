@@ -1,1 +1,19 @@
-<p>forumpage works!</p>
+<div class="forum">
+  <h2>Forum</h2>
+
+  <div *ngFor="let item of dataArray" class="forum-item">
+    <h3>{{ item.theme }}</h3>
+    <div class="message-container">
+      <div *ngFor="let content of item.message" class="message">
+        <div *ngIf="content" class="content">
+          <h3>{{ content.title }}</h3>
+          <p>
+            {{ content.text }}
+          </p>
+          <strong>{{ content.user }}</strong>
+        </div>
+      </div>
+      <button>Voir plus</button>
+    </div>
+  </div>
+</div>
