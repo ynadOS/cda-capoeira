@@ -1,13 +1,24 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Banner } from '../models/banner';
+import { BannerComponent } from '../banner/banner.component';
 
 @Component({
   selector: 'app-forumpage',
-  imports:[CommonModule],
+  imports: [BannerComponent, CommonModule],
   templateUrl: './forumpage.component.html',
   styleUrls: ['./forumpage.component.css']
 })
-export class ForumpageComponent {
+
+export class ForumpageComponent implements OnInit{
+   myBanner! : Banner;
+
+  ngOnInit(): void {
+    this.myBanner = new Banner(
+      "Rejoignez notre communauté pour échanger autour de la capoeira : techniques, culture, événements, et bien plus encore",
+    );
+  }
+  
   data = {
     first: {
       theme: "Techniques",
@@ -74,3 +85,5 @@ export class ForumpageComponent {
   // Transformation en tableau pour faciliter l'itération
   dataArray = Object.values(this.data);
 }
+
+
