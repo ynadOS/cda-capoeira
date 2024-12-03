@@ -15,9 +15,9 @@ export interface Event {
 })
 export class EventService {
 
-  private url = 'http://localhost:3000/events';
+  readonly url = 'http://localhost:3000/events';
   private http = inject(HttpClient);
-  private event = signal<Event[]>([])
+  public event = signal<Event[]>([])
 
   constructor() { }
 
