@@ -1,11 +1,17 @@
-.events {
+.events{
+  width: 100%;
+} 
+
+.inc-events {
   display: flex;
   flex-wrap: wrap;
-  gap: 5%;
+  gap: 2%;
   justify-content: center;
-  margin: 20px 0;
+  padding: 5px 0;
+  background-color: #73C79D;
+  border-radius: 20px;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
