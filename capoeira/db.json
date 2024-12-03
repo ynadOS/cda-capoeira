@@ -1,0 +1,216 @@
+{
+  "ressources": [
+    {
+      "_id": "6748d8a32831eafd3fad9fb0",
+      "title": "C'est quoi la FSCF",
+      "url": "https://www.fscf.asso.fr/histoire",
+      "type": "article"
+    },
+    {
+      "_id": "6748d801ab85103854344cc2",
+      "title": "Les 6,5 mouvements que je dois maîtriser en débutant la Capoeira.",
+      "url": "https://www.apprendrelacapoeira.fr/les-65-mouvements-que-je-dois-maitriser-en-debutant-la-capoeira",
+      "type": "article"
+    },
+    {
+      "_id": "6748d806eb2469e520b00148",
+      "title": "Au Brésil, la capoeira est une danse de combat | Invitation au voyage | ARTE Family",
+      "url": "https://www.youtube.com/watch?v=RLrS8hu8kQA",
+      "type": "reportage"
+    }
+  ],
+  "schools": [
+    {
+      "_id": "6748d65535d4ba41ee298513",
+      "name": "Capoeira Raízes",
+      "location": {
+        "address": {
+          "street": "Rue des 3 Gateaux",
+          "city": "Strasbourg",
+          "zipcode": "67000"
+        },
+        "geo": {
+          "type": "point",
+          "coordinates": [
+            48.580586,
+            7.754267
+          ]
+        }
+      }
+    },
+    {
+      "_id": "6748d79525661f7abaaf650a",
+      "name": "Leão de Capoeira",
+      "location": {
+        "address": {
+          "street": "214 Rue Garibaldi",
+          "city": "Lyon",
+          "zipcode": "69003"
+        },
+        "geo": {
+          "type": "point",
+          "coordinates": [
+            45.757879,
+            4.852517
+          ]
+        }
+      }
+    },
+    {
+      "_id": "6748d90bc0f2f27b7a90952d",
+      "name": "Vento Forte",
+      "location": {
+        "address": {
+          "street": "101 Bd de Châteaudun",
+          "city": "Orléans",
+          "zipcode": "45000"
+        },
+        "geo": {
+          "type": "point",
+          "coordinates": [
+            47.910764,
+            1.89324
+          ]
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "_id": "6748d79f0f5d2d7389777022",
+      "title": "Baptême CAPOEIRA",
+      "description": "Venez découvrir l'art de la capoiera dans cet atelier ouvert à tous",
+      "category": "atelier",
+      "public": true,
+      "city": "Strasbourg",
+      "school_id": "6748d65535d4ba41ee298513",
+      "start_date": 1722762000,
+      "end_date": 1722794400
+    },
+    {
+      "_id": "6748e42f5e4d2a3fbf9341bf",
+      "title": "Baptême CAPOEIRA",
+      "description": "Venez découvrir l'art de la capoiera dans cet atelier ouvert à tous",
+      "category": "atelier",
+      "seats": 10,
+      "public": false,
+      "city": "Strasbourg",
+      "school_id": "6748d65535d4ba41ee298513",
+      "start_date": 1718874000,
+      "end_date": 1719252000
+    },
+    {
+      "_id": "6748d79f0f5d2d7389777023",
+      "title": "Stage Avancé de Capoeira",
+      "description": "Un stage intensif pour les pratiquants souhaitant perfectionner leur technique.",
+      "category": "stage",
+      "public": true,
+      "city": "Lyon",
+      "school_id": "6748d79525661f7abaaf650a",
+      "start_date": 1723464000,
+      "end_date": 1723550400
+    },
+    {
+      "_id": "6748d79f0f5d2d7389777024",
+      "title": "Atelier Enfants : Découverte de la Capoeira",
+      "description": "Une initiation ludique à la Capoeira pour les enfants de 6 à 12 ans.",
+      "category": "atelier",
+      "public": true,
+      "city": "Lyon",
+      "school_id": "6748d79525661f7abaaf650a",
+      "start_date": 1723982400,
+      "end_date": 1723993200
+    },
+    ...
+  ],
+  "users": [
+    {
+      "_id": "6748d9e733558fcc2a8080f7",
+      "name": "Charde Parsons",
+      "email": "at.auctor@protonmail.couk",
+      "password": "$2y$10$4s4lsVKnWimpDzocdeUKGuiUMNiKS4j0AMz2ueEzTGv0keYFH3vGm",
+      "school_id": "6748d79525661f7abaaf650a",
+      "refNum": "FC2024000001"
+    },
+    {
+      "_id": "6748d9e733558fcc2a8080f7",
+      "name": "Charde Parsons",
+      "email": "at.auctor@protonmail.couk",
+      "password": "$2y$10$4s4lsVKnWimpDzocdeUKGuiUMNiKS4j0AMz2ueEzTGv0keYFH3vGm",
+      "school_id": "6748d79525661f7abaaf650a",
+      "refNum": "FC2024000001"
+    },
+    {
+      "_id": "6748d9e733558fcc2a8080f7",
+      "name": "Charde Parsons",
+      "email": "at.auctor@protonmail.couk",
+      "password": "$2y$10$4s4lsVKnWimpDzocdeUKGuiUMNiKS4j0AMz2ueEzTGv0keYFH3vGm",
+      "school_id": "6748d79525661f7abaaf650a",
+      "refNum": "FC2024000001"
+    },
+    {
+      "_id": "6748d9e733558fcc2a8080f7",
+      "name": "Charde Parsons",
+      "email": "at.auctor@protonmail.couk",
+      "password": "$2y$10$4s4lsVKnWimpDzocdeUKGuiUMNiKS4j0AMz2ueEzTGv0keYFH3vGm",
+      "school_id": "6748d79525661f7abaaf650a",
+      "refNum": "FC2024000001"
+    },
+    {
+      "_id": "6748d9e733558fcc2a8080f7",
+      "name": "Charde Parsons",
+      "email": "at.auctor@protonmail.couk",
+      "password": "$2y$10$4s4lsVKnWimpDzocdeUKGuiUMNiKS4j0AMz2ueEzTGv0keYFH3vGm",
+      "school_id": "6748d79525661f7abaaf650a",
+      "refNum": "FC2024000001"
+    },
+    {
+      "_id": "6748d9e733558fcc2a8080f7",
+      "name": "Charde Parsons",
+      "email": "at.auctor@protonmail.couk",
+      "password": "$2y$10$4s4lsVKnWimpDzocdeUKGuiUMNiKS4j0AMz2ueEzTGv0keYFH3vGm",
+      "school_id": "6748d79525661f7abaaf650a",
+      "refNum": "FC2024000001"
+    }
+
+  ],
+  "discussions": [
+    {
+      "_id": "6748dbccc30ba7f8361b605e",
+      "subject": "D'où vient le mot Capoeira",
+      "description": "Je cherche à en savoir plus sur ce mot, des idées?",
+      "author_id": "6748da00ccd49caa3d704e45",
+      "createdAt": 1714313566
+    }
+  ],
+  "messages": [
+    {
+      "_id": "6748dc1ff1b9f22a3fdf3118",
+      "user_id": "6748da080122a5abda5388fe",
+      "discussion_id": "6748dbccc30ba7f8361b605e",
+      "text": "Je sais qu'en portugais du Brésil colonial, 'capoeira' faisait référence à une cage ou un panier utilisé pour transporter des poulets",
+      "date": 1714334482
+    },
+    {
+      "_id": "6748dc1ff1b9f22a3fdf3118",
+      "user_id": "6748da080122a5abda5388fe",
+      "discussion_id": "6748dbccc30ba7f8361b605e",
+      "text": "Je sais qu'en portugais du Brésil colonial, 'capoeira' faisait référence à une cage ou un panier utilisé pour transporter des poulets",
+      "date": 1714334482
+    },
+    {
+      "_id": "6748dc1ff1b9f22a3fdf3118",
+      "user_id": "6748da080122a5abda5388fe",
+      "discussion_id": "6748dbccc30ba7f8361b605e",
+      "text": "Je sais qu'en portugais du Brésil colonial, 'capoeira' faisait référence à une cage ou un panier utilisé pour transporter des poulets",
+      "date": 1714334482
+    },
+    {
+      "_id": "6748dc1ff1b9f22a3fdf3118",
+      "user_id": "6748da080122a5abda5388fe",
+      "discussion_id": "6748dbccc30ba7f8361b605e",
+      "text": "Je sais qu'en portugais du Brésil colonial, 'capoeira' faisait référence à une cage ou un panier utilisé pour transporter des poulets",
+      "date": 1714334482
+    }
+  ]
+}
