@@ -9,10 +9,8 @@ import { EventService } from '../Services/event.service';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent implements OnInit {
-  private eventService = inject(EventService);
+export class HeaderComponent{
 
-  ngOnInit() {
-    this.eventService.getEvent().subscribe();
-  }
+
+
 }
