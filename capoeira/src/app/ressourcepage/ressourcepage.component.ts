@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { BannerComponent } from '../banner/banner.component';
 import { Banner } from '../models/banner';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-ressourcepage',
   standalone: true,
-  imports: [BannerComponent],
+  imports: [BannerComponent, CardComponent],
   templateUrl: './ressourcepage.component.html',
   styleUrl: './ressourcepage.component.css'
 })
