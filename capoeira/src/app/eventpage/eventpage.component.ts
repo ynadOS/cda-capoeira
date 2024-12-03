@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, Input, OnInit } from '@angular/core';
 import { Banner } from '../models/banner';
 import { BannerComponent } from '../banner/banner.component';
 import { EventService } from '../Services/event.service';
@@ -16,8 +16,6 @@ export class EventpageComponent implements OnInit {
   myBanner! : Banner;
   private eventService = inject(EventService);
   events: any[] = [];
-
-
 
 
   ngOnInit(): void {
