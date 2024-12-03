@@ -1,41 +1,108 @@
-.profil-page{
-    width: 80%;
-    margin: auto;
-    font-size: 16px;
+.profil-page {
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
 }
 
-.profil-bio{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 50px;
+.profil-bio {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-.bio-img{
-    width: 108px;
-    height: 108px;
+.bio-img {
+  width: 108px;
+  height: 108px;
 }
-.profil-title{
-    padding-left: 20px;
-    font-size: 24px;
-    font-family: "Monserrat", sans-serif;
-}
-
-.bio-container{
-    width: 495px;
-    border-radius: 10px;
-    background-color: rgba(255, 204, 0, 0.35);
-}
-.bio-text{
-    width: 90%;
-    margin: auto;
-    padding-bottom: 10px;
+.profil-title {
+  padding-left: 20px;
+  font-size: 24px;
+  font-family: "Monserrat", sans-serif;
 }
 
-.profil-infos{
-    background-color:rgba(0, 34, 187, 0.15);
-    border-radius: 10px;
+.bio-container {
+  width: 495px;
+  border-radius: 10px;
+  background-color: rgba(255, 204, 0, 0.35);
+}
+.bio-text {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
-.infos-container{
-    display: flex;
+.profil-infos {
+  background-color: rgba(0, 34, 187, 0.15);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.infos-container {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5%;
+  margin-left: 5%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+button {
+  width: 100%;
+  place-self: center;
+  height: 50%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
 }

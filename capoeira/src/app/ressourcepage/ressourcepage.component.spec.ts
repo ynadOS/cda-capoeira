@@ -6,7 +6,7 @@ describe('RessourcepageComponent', () => {
   let component: RessourcepageComponent;
   let fixture: ComponentFixture<RessourcepageComponent>;
 
-  beforeEach(async () => {
+  beforeEach(async () => {  
     await TestBed.configureTestingModule({
       imports: [RessourcepageComponent]
     })

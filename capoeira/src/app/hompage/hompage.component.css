@@ -1,0 +1,120 @@
+.banner-home {
+  position: relative;
+  background-image: url("/img/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.banner-home::before {
+  content: ""; /* Nécessaire pour afficher le pseudo-élément */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Couche noire semi-transparente */
+  z-index: 1; /* Place la superposition derrière le texte */
+}
+
+.banner-home p {
+  font-size: 2em;
+  color: white;
+}
+
+.home {
+  position: relative; /* Place le texte au-dessus de la superposition */
+  z-index: 2;
+}
+
+.home {
+  color: white;
+  padding: 20px 120px;
+}
+
+h1 {
+  font-family: "Lily Script One", system-ui;
+  font-size: 5em;
+}
+
+button {
+  margin-top: 40px;
+}
+
+.custom-button {
+  display: inline-block; /* Pour ajuster la largeur à son contenu */
+  padding: 12px 24px; /* Espacement interne */
+  font-size: 16px; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  color: white; /* Couleur du texte */
+  background-color: #007bff; /* Couleur de fond (bleu) */
+  border: none; /* Supprime les bordures */
+  border-radius: 8px; /* Coins arrondis */
+  cursor: pointer; /* Change le curseur au survol */
+  transition: all 0.3s ease; /* Animation des changements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Couleur de fond plus sombre au survol */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Augmente l'ombre */
+  transform: translateY(-2px); /* Légère élévation au survol */
+}
+
+.custom-button:active {
+  background-color: #003d80; /* Couleur encore plus sombre lors de l'appui */
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2); /* Réduit l'ombre */
+  transform: translateY(2px); /* Simule un appui */
+}
+
+.custom-button:focus {
+  outline: none; /* Supprime le contour par défaut */
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); /* Contour bleu clair */
+}
+
+H2 {
+  font-family: "Lily Script One", system-ui;
+}
+
+.events-home {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-home-container {
+  padding: 70px 100px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.section-home-img {
+  border-radius: 30px;
+}
+
+.img-section {
+  width: 400px;
+}
+
+.section-home-container-bot {
+  padding: 70px 100px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.section-home-all {
+  margin-top: 100px;
+  background-color: #ffcc0034;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: center;
+}

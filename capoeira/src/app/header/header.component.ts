@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { EventService } from '../Services/event.service';
 
 
 @Component({
@@ -8,6 +9,8 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {
+export class HeaderComponent{
+
+
 
 }

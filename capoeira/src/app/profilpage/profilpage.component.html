@@ -21,12 +21,62 @@
   <section class="profil-infos">
     <h2 class="profil-title">Vos informations personnelles :</h2>
     <div class="infos-container">
-      <span class="green"><p>Nom</p></span>
-      <span class="green"><p>Prénom</p></span>
-      <span class="green"><p>Date de naissance</p></span>
-      <span class="green"><p>Ville</p></span>
-      <span class="green"><p>Niveau de pratique</p></span>
-      <button class="infos-btn">Modifier</button>
+      <form>
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input
+            id="nom"
+            type="text"
+            class="form-control"
+            formControlName="nom"
+            placeholder="Entrez votre nom"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="prenom">Prénom</label>
+          <input
+            id="prenom"
+            type="text"
+            class="form-control"
+            formControlName="prenom"
+            placeholder="Entrez votre prénom"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="dateNaissance">Date de naissance</label>
+          <input
+            id="dateNaissance"
+            type="date"
+            class="form-control"
+            formControlName="dateNaissance"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="ville">Ville</label>
+          <input
+            id="ville"
+            type="text"
+            class="form-control"
+            formControlName="ville"
+            placeholder="Entrez votre ville"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="niveau">Niveau de pratique</label>
+          <select id="niveau" class="form-control" formControlName="niveau">
+            <option value="" disabled selected>Sélectionnez un niveau</option>
+            <option value="Débutant">Débutant</option>
+            <option value="Intermédiaire">Intermédiaire</option>
+            <option value="Avancé">Avancé</option>
+          </select>
+        </div>
+
+        <button type="submit" class="infos-btn">Modifier</button>
+      </form>
     </div>
   </section>
   <section class="profil-stats">

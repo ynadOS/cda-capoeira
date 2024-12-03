@@ -1,0 +1,6 @@
+.ressources-container {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}

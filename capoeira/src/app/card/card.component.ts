@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-
+  @Input() title: string = 'Titre à modifier';
+  @Input() content: string = 'Contenu par défaut de la carte';
+  @Input() imageUrl: string | null = null; // @Input pour l'image
 }
