@@ -1,4 +1,3 @@
-
 <app-banner [banner]="myBanner"></app-banner> 
 <h1>Découvrez toutes les ressrouces pour approfondir votre pratique de la capoeira</h1>
 
@@ -7,6 +6,6 @@
       *ngFor="let ressource of ressources"
       [title]="ressource.title"
       [content]="ressource.url"
-      [imageUrl]="ressource.imageUrl || 'https://via.placeholder.com/300x150'" 
+      [imageUrl]="ressource.imageUrl || 'https://lesexplos.com/wp-content/uploads/2021/09/Capoeira_1200px.jpg'" 
     class=""></app-card>
   </div>
